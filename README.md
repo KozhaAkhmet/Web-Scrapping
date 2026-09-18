@@ -47,8 +47,8 @@ for i in range(3):                  #Page scrolling loop
 
 ```
 
+## Note
 
-
-
+This relies on Trendyol's specific CSS class names (`p-card-wrppr add-to-bs-card`, `prdct-desc-cntnr-name hasRatings`) captured at the time this was written — if the site's markup changes, `find_all`/`find` will simply return nothing and the script will silently print no products.
 
 
